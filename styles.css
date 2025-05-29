@@ -2,6 +2,31 @@
     background: rgb(19, 65, 111);
 }
 
+a{
+    color: #ffffff;
+    transition: 1s;
+    text-decoration: none;
+}
+
+a:hover{
+ color:#49D3D8 ;
+}
+
+.container{
+display: flex;
+margin: auto;
+margin-left: 85%;
+gap: 2em;
+}
+
+h1{
+    color:#49D3D8 ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 525px;
+    display: block;
+}
+
 
 img{
     width: 25%;
@@ -10,9 +35,9 @@ img{
     margin: auto;
 }
 
-main{
+section{
 display: flex;
-margin-top: 200px;
+margin-top: 100px;
 margin-left: 230px;
 }
 
@@ -36,7 +61,7 @@ margin-left: 230px;
 }
 
 p{
-    color: white;
+    color: rgb(255, 255, 255);
     width: 80%;
     position: absolute;
     top: 100%;
@@ -61,7 +86,9 @@ canvas#particles {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
 }
 
 .conteudo {
